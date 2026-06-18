@@ -1,0 +1,116 @@
+Yosys 0.64+post (git sha1 UNKNOWN-dirty, g++ 11.4.0-1ubuntu1~22.04.3 -fPIC -O3)
+Using ABC speed script.
+Extracting clock period from SDC file: ./results/asap7/tinyriscv/500mhzrun/clock_period.txt
+Setting clock period to 2000
+1. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz
+2. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz
+3. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz
+4. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz
+5. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib
+6. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz
+7. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz
+8. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz
+9. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz
+10. Executing Liberty frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib
+11. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/clint.v
+12. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/csr_reg.v
+13. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/ctrl.v
+14. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/defines.v
+15. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/div.v
+16. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/ex.v
+17. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/id.v
+18. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/id_ex.v
+19. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/if_id.v
+20. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/pc_reg.v
+21. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/regs.v
+22. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/rib.v
+23. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/core/tinyriscv.v
+24. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/debug/jtag_dm.v
+25. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/debug/jtag_driver.v
+26. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/debug/jtag_top.v
+27. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/debug/uart_debug.v
+28. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/gpio.v
+29. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/ram.v
+30. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/rom.v
+31. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/spi.v
+32. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/timer.v
+33. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/perips/uart.v
+34. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/soc/tinyriscv_soc_top.v
+/OpenROAD-flow-scripts/flow/designs/src/tinyriscv/soc/tinyriscv_soc_top.v:221: Warning: Yosys has only limited support for tri-state logic at the moment.
+35. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/utils/full_handshake_rx.v
+36. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/utils/full_handshake_tx.v
+37. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/utils/gen_buf.v
+38. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/designs/src/tinyriscv/utils/gen_dff.v
+39. Executing Verilog-2005 frontend: /OpenROAD-flow-scripts/flow/platforms/asap7/yoSys/cells_clkgate_R.v
+40. Executing HIERARCHY pass (managing design hierarchy).
+41. Executing AST frontend in derive mode using pre-parsed AST for module `\tinyriscv_soc_top'.
+/OpenROAD-flow-scripts/flow/designs/src/tinyriscv/soc/tinyriscv_soc_top.v:147: Warning: Identifier `\u_tinyriscv.u_regs.regs' is implicitly declared.
+/OpenROAD-flow-scripts/flow/designs/src/tinyriscv/soc/tinyriscv_soc_top.v:147: Warning: Range select out of bounds on signal `\u_tinyriscv.u_regs.regs': Setting result bit to undef.
+41.1. Analyzing design hierarchy..
+41.2. Executing AST frontend in derive mode using pre-parsed AST for module `\jtag_top'.
+41.3. Executing AST frontend in derive mode using pre-parsed AST for module `\uart_debug'.
+41.4. Executing AST frontend in derive mode using pre-parsed AST for module `\rib'.
+41.5. Executing AST frontend in derive mode using pre-parsed AST for module `\spi'.
+41.6. Executing AST frontend in derive mode using pre-parsed AST for module `\gpio'.
+41.7. Executing AST frontend in derive mode using pre-parsed AST for module `\uart'.
+41.8. Executing AST frontend in derive mode using pre-parsed AST for module `\timer'.
+41.9. Executing AST frontend in derive mode using pre-parsed AST for module `\ram'.
+41.10. Executing AST frontend in derive mode using pre-parsed AST for module `\rom'.
+41.11. Executing AST frontend in derive mode using pre-parsed AST for module `\tinyriscv'.
+41.12. Analyzing design hierarchy..
+41.13. Executing AST frontend in derive mode using pre-parsed AST for module `\clint'.
+41.14. Executing AST frontend in derive mode using pre-parsed AST for module `\div'.
+41.15. Executing AST frontend in derive mode using pre-parsed AST for module `\ex'.
+41.16. Executing AST frontend in derive mode using pre-parsed AST for module `\id_ex'.
+41.17. Executing AST frontend in derive mode using pre-parsed AST for module `\id'.
+41.18. Executing AST frontend in derive mode using pre-parsed AST for module `\if_id'.
+41.19. Executing AST frontend in derive mode using pre-parsed AST for module `\csr_reg'.
+41.20. Executing AST frontend in derive mode using pre-parsed AST for module `\regs'.
+41.21. Executing AST frontend in derive mode using pre-parsed AST for module `\ctrl'.
+41.22. Executing AST frontend in derive mode using pre-parsed AST for module `\pc_reg'.
+41.23. Executing AST frontend in derive mode using pre-parsed AST for module `\jtag_dm'.
+/OpenROAD-flow-scripts/flow/designs/src/tinyriscv/debug/jtag_dm.v:325: Warning: Identifier `\tx_idle' is implicitly declared.
+41.24. Executing AST frontend in derive mode using pre-parsed AST for module `\jtag_driver'.
+41.25. Analyzing design hierarchy..
+41.26. Executing AST frontend in derive mode using pre-parsed AST for module `\gen_pipe_dff'.
+41.27. Executing AST frontend in derive mode using pre-parsed AST for module `\gen_pipe_dff'.
+41.28. Executing AST frontend in derive mode using pre-parsed AST for module `\gen_pipe_dff'.
+41.29. Executing AST frontend in derive mode using pre-parsed AST for module `\gen_pipe_dff'.
+41.30. Executing AST frontend in derive mode using pre-parsed AST for module `\full_handshake_rx'.
+41.31. Executing AST frontend in derive mode using pre-parsed AST for module `\full_handshake_tx'.
+41.32. Analyzing design hierarchy..
+41.33. Analyzing design hierarchy..
+42. Executing OPT_CLEAN pass (remove unused cells and wires).
+Warning: Ignoring module $paramod\gen_pipe_dff\DW=s32'00000000000000000000000000000001 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\gen_pipe_dff\DW=s32'00000000000000000000000000100000 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\gen_pipe_dff\DW=s32'00000000000000000000000000001000 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$d54071c776e386cc3c0aff788f71629faa06a8db\jtag_driver because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod$d54071c776e386cc3c0aff788f71629faa06a8db\jtag_dm because it contains processes (run 'proc' command first).
+Warning: Ignoring module pc_reg because it contains processes (run 'proc' command first).
+Warning: Ignoring module ctrl because it contains processes (run 'proc' command first).
+Warning: Ignoring module regs because it contains processes (run 'proc' command first).
+Warning: Ignoring module csr_reg because it contains processes (run 'proc' command first).
+Warning: Ignoring module id because it contains processes (run 'proc' command first).
+Warning: Ignoring module ex because it contains processes (run 'proc' command first).
+Warning: Ignoring module div because it contains processes (run 'proc' command first).
+Warning: Ignoring module clint because it contains processes (run 'proc' command first).
+Warning: Ignoring module rom because it contains processes (run 'proc' command first).
+Warning: Ignoring module ram because it contains processes (run 'proc' command first).
+Warning: Ignoring module timer because it contains processes (run 'proc' command first).
+Warning: Ignoring module uart because it contains processes (run 'proc' command first).
+Warning: Ignoring module gpio because it contains processes (run 'proc' command first).
+Warning: Ignoring module spi because it contains processes (run 'proc' command first).
+Warning: Ignoring module rib because it contains processes (run 'proc' command first).
+Warning: Ignoring module uart_debug because it contains processes (run 'proc' command first).
+Warning: Ignoring module tinyriscv_soc_top because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\full_handshake_tx\DW=s32'00000000000000000000000000101000 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\full_handshake_rx\DW=s32'00000000000000000000000000101000 because it contains processes (run 'proc' command first).
+Warning: Ignoring module $paramod\gen_pipe_dff\DW=s32'00000000000000000000000000000101 because it contains processes (run 'proc' command first).
+43. Executing RTLIL backend.
+Warnings: 29 unique messages, 31 total
+End of script. Logfile hash: 6b287d3188, time: 0.77s, user: 0.69s, system: 0.04s, MEM: 78.00 MB peak
+Yosys 0.64+post (git sha1 UNKNOWN-dirty, g++ 11.4.0-1ubuntu1~22.04.3 -fPIC -O3)
+Time spent: 85% 12x read_liberty (0 sec), 7% 1x hierarchy (0 sec), ...
+Elapsed time: 0:00.78[h:]min:sec. CPU time: user 0.71 sys 0.04 (97%). Peak memory: 82276KB.
+Log                       Ext     Elapsed/s Peak Memory/MB sha1sum result [0:20)
+1_1_yosys_canonicalize    .rtlil          0             80 587ee08d32cf382f5692
